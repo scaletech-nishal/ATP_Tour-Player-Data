@@ -1,3 +1,5 @@
-import GetGoogleLinks from "./index";
+import GetPlayerData from "./index";
 
-GetGoogleLinks({ searches: `crawlora\nscaletech` });
+GetPlayerData({
+  playersName: `JANNIK SINNER\nTommy Paul\nAndrey Rublev\nMSD\nJan-Lennard Struff`,
+});
