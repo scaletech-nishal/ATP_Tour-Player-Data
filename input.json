@@ -1,12 +1,12 @@
 [
-    {
-        "type": "textarea",
-        "datatype": "string",
-        "placeholder": "Enter search keywords per line",
-        "default": "crawlora",
-        "label": "Google searchs",
-        "regex": "/^.*$/",
-        "required": true,
-        "name": "searches"
-      }
+  {
+    "type": "textarea",
+    "datatype": "string",
+    "placeholder": "Enter player name on each line\nJANNIK SINNER\nTommy Paul",
+    "default": "",
+    "label": "Player name",
+    "regex": "/^.*$/",
+    "required": true,
+    "name": "playersName"
+  }
 ]

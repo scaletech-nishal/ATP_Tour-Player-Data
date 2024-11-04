@@ -34,7 +34,6 @@ export default async function ({ playersName }: { playersName: string }) {
         }
 
         await wait(3);
-        //  await page.waitForSelector(".player-list li", { visible: true });
 
         const playerFound = await page.$(".player-list li:first-child");
         if (!playerFound) {
@@ -382,8 +381,7 @@ export default async function ({ playersName }: { playersName: string }) {
           sequence_id,
           sequence_output: { ...basicData, ...doublesFilterData, ...statics },
         });
-
-        console.log("data", { ...basicData, ...doublesFilterData, ...statics });
+        
         await wait(5);
       }
     },
