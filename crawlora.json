@@ -18,5 +18,6 @@
   "short_description": "To scrap player's data from the ATP platform",
   "version": "1.0.0",
   "documentation_file": "./documentation.md",
-  "input_file": "./input.json"
+  "input_file": "./input.json",
+  "app_id" : "0b7696b1-9c51-4b56-b1aa-c73e131c30a2"
 }
